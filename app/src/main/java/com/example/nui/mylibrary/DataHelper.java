@@ -4,11 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
-/**
- * Created by Ujang Wahyu on 28/01/2017.
- */
-
 public class DataHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "biodatadiri.db";
     private static final int DATABASE_VERTSION = 1;
